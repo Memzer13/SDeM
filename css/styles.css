@@ -5,6 +5,12 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Poiret One', cursive;
+  src: url("WebFont.eot");
+  src: url("WebFont.eot?#iefix") format("embedded-opentype"), url("WebFont.woff") format("woff"), url("WebFont.ttf") format("truetype"), url("WebFont.svg#webfont") format("svg");
+}
+
 .ite-long {
   width: auto;
 }
@@ -46,6 +52,9 @@ h1, h2, h3, h4, h5, h6 {
   text-shadow: 0 0 10px #fff, 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 50px #ff0000, 0 0 60px #ff0000, 0 0 70px #ff0000;
 }
 
+/******************************************************************************************************
+************************************** JUMBO TRON  ****************************************************
+******************************************************************************************************/
 .headers {
   font-size: 2.5rem;
   text-align: right;
@@ -57,12 +66,15 @@ h1, h2, h3, h4, h5, h6 {
   text-shadow: 0px 0px 25px red;
 }
 
+/******************************************************************************************************
+************************************** INDEX GRID *****************************************************
+******************************************************************************************************/
 .grid-container {
   padding-top: 5rem;
   padding-bottom: 5rem;
   display: -ms-grid;
   display: grid;
-  grid-gap: 0px;
+  grid-gap: 10px;
   margin-left: 0px;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -99,7 +111,7 @@ h1, h2, h3, h4, h5, h6 {
 ****************************************MODAL****************************************************
 *************************************************************************************************/
 .row > .column {
-  padding: 0px 0px;
+  padding: 10px 10px;
 }
 
 .row:after {
@@ -111,7 +123,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Create four equal columns that floats next to each other */
 .column {
   float: left;
-  width: 33%;
+  width: 18%;
 }
 
 /* The Modal (background) */
@@ -165,13 +177,13 @@ h1, h2, h3, h4, h5, h6 {
 .next {
   cursor: pointer;
   position: absolute;
-  top: 30%;
+  top: 50%;
   width: auto;
   padding: 16px;
   margin-top: -50px;
   color: white;
   font-weight: bold;
-  font-size: 45px;
+  font-size: 25px;
   -webkit-transition: 0.6s ease;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
@@ -227,5 +239,64 @@ img.hover-shadow {
 .hover-shadow:hover {
   -webkit-transform: scale(1.01);
           transform: scale(1.01);
+}
+
+/************************************************************************************************
+**************************************CONTACT FORM***********************************************
+*************************************************************************************************/
+#contact {
+  font-size: 2.5rem;
+  text-align: right;
+  padding-top: 30vh;
+  padding-right: 1.5rem;
+  line-height: 7rem;
+  color: white;
+  font-family: 'neoneonregular';
+  text-shadow: 0px 0px 25px red;
+}
+
+.section-content {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.contact-section {
+  padding-top: 3rem;
+}
+
+.contact-section .col-md-6 {
+  width: 50%;
+}
+
+.form-line {
+  border-right: 1px solid #B29999;
+}
+
+.form-group {
+  margin-top: 10px;
+}
+
+label {
+  font-size: 1.5em;
+  line-height: 1em;
+  font-weight: normal;
+}
+
+.form-control {
+  font-size: 1.5em;
+  color: #121212;
+}
+
+textarea.form-control {
+  height: 135px;
+  /* margin-top: px;*/
+}
+
+.submit {
+  font-size: 1.5em;
+  float: right;
+  width: 150px;
+  background-color: transparent;
+  color: #121212;
 }
 /*# sourceMappingURL=styles.css.map */
