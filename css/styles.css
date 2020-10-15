@@ -249,9 +249,9 @@ img.hover-shadow {
 #contact {
   font-family: 'Teko', sans-serif;
   padding-top: 111px;
-  width: 100%;
   width: 100vw;
   color: #fff;
+  border-radius: 10px;
 }
 
 .section-content {
@@ -261,41 +261,48 @@ img.hover-shadow {
 
 .contact-section {
   padding-top: 3rem;
-}
-
-.contact-section .col-md-6 {
-  width: 50%;
-}
-
-.form-line {
-  border-right: 1px solid #B29999;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .form-group {
   margin-top: 10px;
-}
-
-label {
   font-size: 1.5em;
   line-height: 1em;
   font-weight: normal;
 }
 
 .form-control {
-  font-size: 1.5em;
-  color: #121212;
+  font-size: 2em;
+  border-radius: 5px;
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  background-color: rgba(255, 255, 255, 0.7);
+  font-weight: bold;
 }
 
 textarea.form-control {
-  height: 135px;
-  /* margin-top: px;*/
+  height: 8rem;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
 }
 
 .submit {
-  font-size: 1.5em;
-  float: right;
+  font-size: 2em;
   width: 150px;
-  background-color: transparent;
-  color: #121212;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 6px;
+  font-family: 'Poiret One', cursive;
+  color: #050505;
+}
+
+#placeholder {
+  color: white;
 }
 /*# sourceMappingURL=styles.css.map */
