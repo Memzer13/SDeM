@@ -1,14 +1,14 @@
 @font-face {
+  font-family: 'Poiret One', cursive;
+  src: url("WebFont.eot");
+  src: url("WebFont.eot?#iefix") format("embedded-opentype"), url("WebFont.woff") format("woff"), url("WebFont.ttf") format("truetype"), url("WebFont.svg#webfont") format("svg");
+}
+
+@font-face {
   font-family: 'neoneonregular';
   src: url("neoneon-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-}
-
-@font-face {
-  font-family: 'Poiret One', cursive;
-  src: url("WebFont.eot");
-  src: url("WebFont.eot?#iefix") format("embedded-opentype"), url("WebFont.woff") format("woff"), url("WebFont.ttf") format("truetype"), url("WebFont.svg#webfont") format("svg");
 }
 
 .ite-long {
@@ -46,7 +46,15 @@ img {
           box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.6);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
+  font-family: 'neoneonregular';
+  font-size: 4rem;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  text-shadow: 0 0 10px #fff, 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 50px #ff0000, 0 0 60px #ff0000, 0 0 70px #ff0000;
+}
+
+h3 {
   margin-top: 5px;
   margin-bottom: 0px;
   text-shadow: 0 0 10px #fff, 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 50px #ff0000, 0 0 60px #ff0000, 0 0 70px #ff0000;
@@ -85,12 +93,6 @@ h1, h2, h3, h4, h5, h6 {
       grid-template-columns: repeat(auto-fill, minmax(250px, 2fr));
 }
 
-.grid-item {
-  -ms-grid-column: 1;
-      grid-column-start: 1;
-  grid-column-end: 3;
-}
-
 .footer {
   background-size: cover;
   overflow-x: hidden;
@@ -123,7 +125,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Create four equal columns that floats next to each other */
 .column {
   float: left;
-  width: 18%;
+  width: 33%;
 }
 
 /* The Modal (background) */
@@ -245,15 +247,11 @@ img.hover-shadow {
 **************************************CONTACT FORM***********************************************
 *************************************************************************************************/
 #contact {
-  font-size: 2.5rem;
-  text-align: right;
-  padding-top: 30vh;
-  padding-right: 1.5rem;
-  line-height: 7rem;
-  color: white;
-  font-family: 'neoneonregular';
-  font-weight: bold;
-  text-shadow: 0px 0px 25px red;
+  font-family: 'Teko', sans-serif;
+  padding-top: 111px;
+  width: 100%;
+  width: 100vw;
+  color: #fff;
 }
 
 .section-content {
